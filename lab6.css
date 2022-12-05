@@ -1,0 +1,155 @@
+@font-face {
+    font-family: Inter;
+    src: url(fonts/inter-v12-latin-regular.ttf);
+}
+
+.header {
+    position: absolute;
+    width: 1303px;
+    height: 97px;
+    left: 243px;
+    top: 43px;
+    
+background-image:url(img/Шапка\ \(1\).png);
+}
+.background
+{
+    position: absolute;
+width: 1920px;
+height: 1080px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(116.97deg, #A740D8 0%, #47B33E 91.56%);
+mix-blend-mode: normal;
+}
+.z370
+{
+    position: absolute;
+    width: 530px;
+    height: 165px;
+    left: 1141px;
+    top: 153px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.z370:hover{
+    background-color:#A740D8;
+}
+.z370img
+{
+    position: absolute;
+    width: 513.5px;
+    height: 158px;
+    left: 1150px;
+    top: 156px;    
+    background: url(img/dd52808030649578f38668e522b009fa\ 1.png);
+    border-radius: 30px;
+}
+
+.z370img:hover~.z370{
+    background-color:#A740D8;
+}
+
+.silvia{
+    position: absolute;
+    width: 530px;
+    height: 165px;
+    left: 1134px;
+    top: 397px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.silvia:hover{
+    background-color:#A740D8;
+}
+
+.silvimg{
+    position: absolute;
+    width: 509px;
+    height: 158px;
+    left: 1144px;
+    top: 401px;
+    background: url(img/1-121\ 1.png);
+    border-radius: 30px;
+}
+.gtr{
+    position: absolute;
+    width: 530px;
+    height: 165px;
+    left: 1134px;
+    top: 645px; 
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.gtr:hover{
+    background-color:#A740D8;
+}
+
+.gtrimg{
+    position: absolute;
+    width: 506.59px;
+    height: 158px;
+    left: 1145px;
+    top: 649px;
+
+    background: url(img/nissan-skyline-nissan-siniy\ 1.png);
+    border-radius: 30px;
+    }
+
+    .title{
+        position: absolute;
+        width: 530px;
+        height: 111px;
+        left: 113px;
+        top: 240px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    }
+
+    .text2{
+        position: absolute;
+        width: 536px;
+        height: 184px;
+        left: 113px;
+        top: 301px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    color: #FFFFFF;
+    }
+
+    .button {
+        position: absolute;
+        width: 358px;
+        height: 150px;
+        left: 200px;
+        top: 514px;
+        background: url(img/button.png);
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+    }
+
+    .button:hover{
+        color:#A740D8;
+        text-decoration: underline;
+    }
+
+
+
+    body{
+        background: linear-gradient(121.81deg, #B656E3 -0.96%, #47B33E 84.31%);
+    }
